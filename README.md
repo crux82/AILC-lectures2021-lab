@@ -12,7 +12,7 @@ In a nutshell, we will "implement" this architecture:
 
 ![BERT architecture for sentence classification](using-bert.jpg)
 
-Given an input sentence, we will use a BERT-based architecture to encode it and a linear classifier is used to associate the produced vector to one of `c` classes considered in the classification task.
+Given an input sentence, we will use a BERT-based architecture to encode it and a linear classifier is used to associate the produced vector to one of the `c` classes considered in the classification task.
 
 Most importantly, we will show how to use the same code but using different transformer based architectures, such as:
 - RoBERTa or Electra in English;
